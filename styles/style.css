@@ -9,11 +9,14 @@
     font-style: normal;
     font-weight: normal;
 }
-
 body{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+main{
     max-width: 1280px;
     margin: 0 auto;
-    background-color: #F5F5F5;
+    
 }
 
 p{
@@ -346,7 +349,7 @@ tbody tr td select{
 .input-submit-box input{
     background-color: #fff;
     display: block;
-    width: 80%;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 32px;
@@ -366,7 +369,9 @@ tbody tr td select{
     background-color: #C6E4D6;
     border-radius: 24px;
 }
-.newsletter-box{}
+.newsletter-box{
+    margin-bottom: 24px;
+}
 .newsletter-box input{
     width: 75%;
     padding: 18px 40px;
@@ -381,4 +386,23 @@ tbody tr td select{
     padding-bottom: 21px;
 }
 
-
+/* Footer */
+footer{
+    
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+footer h2{
+    font-size: 32px;
+}
+footer hr{
+    width: 80%;
+    border-color: rgba(14, 14, 14, 0.1);
+    margin-bottom: 32px;
+}
+.social-icons{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+}
