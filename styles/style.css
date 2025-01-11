@@ -124,6 +124,7 @@ nav{
     padding: 24px;
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 302px;
 }
 .icon-box-img{
     margin-bottom: 24px;
@@ -135,4 +136,99 @@ nav{
 .icon-box p{
     line-height: 24px;
     color: rgba(14, 14, 14, 0.7);
+}
+
+/* Vision */
+.vision{
+    margin-bottom: 80px;
+}
+.vision-box img{
+    margin-bottom: 24px;
+}
+.vision-description{
+    line-height: 24px;
+    margin-bottom: 32px;
+} 
+.vision-box{
+    width: 410px ;
+    padding: 32px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 24px;
+}
+.vision-box h4{
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.vision-box p{
+    line-height: 24px;
+}
+.vision-box button{
+    font-size: 16px;
+    padding: 11px 20px;
+}
+.vb-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    
+}
+.vb-1 button{
+    background-color: rgba(84, 144, 245, 1);
+    border: 1px solid rgba(84, 144, 245, 1);
+}
+.vb-1 button:hover{
+    background-color: #fff;
+    color: rgba(84, 144, 245, 1);
+}
+.vb-2{
+    background-color: rgba(198, 228, 214, 1);
+    
+}
+.vb-2 button{
+    background-color: #09A15C;
+    border: 1px solid #09A15C;
+}
+.vb-2 button:hover{
+    background-color: #fff;
+    color: #09A15C;
+}
+.vb-3{
+    background-color: #F7EBCF;
+    padding: 24px;
+    
+}
+.vb-3 button{
+    background-color: #FFC239;
+    border: 1px solid #FFC239;
+}
+.vb-3 button:hover{
+    background-color: #fff;
+    color: #FFC239;
+}
+
+/* Testimonial */
+.testimonial{
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin-top: 32px;
+}
+.qoute{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin-bottom: 12px;
+    
+}
+.name{}
+.position{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.6);
 }
