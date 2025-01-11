@@ -13,6 +13,7 @@
 body{
     max-width: 1280px;
     margin: 0 auto;
+    background-color: #F5F5F5;
 }
 
 p{
@@ -29,10 +30,15 @@ h2{
     font-size: 40px;
     font-weight: 700;
     color: rgba(14, 14, 14, 1);
+    margin-bottom: 24px;
 }
 h3{
      font-size: 32px;
      font-weight: 700;
+}
+h4{
+    font-size: 20px;
+    font-weight: 700;
 }
 .btn{
     background-color: #006A50;
@@ -100,4 +106,33 @@ nav{
     color: rgba(14, 14, 14, 0.5);
     font-weight: 500;
     margin-bottom: 16px;
+}
+
+/* Pillars */
+.pillars{
+    margin: 80px 0;
+}
+.pillars > h2{
+    margin-bottom: 32px;
+}
+.icon-box-container{
+    display: flex;
+    gap: 24px;
+}
+.icon-box{
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.icon-box-img{
+    margin-bottom: 24px;
+}
+.icon-box h4{
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+ }
+.icon-box p{
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
 }
