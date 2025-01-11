@@ -54,7 +54,10 @@ h4{
     background-color: #fff;
     color: #006A50;
 }
-
+.section-description{
+    line-height: 24px;
+    margin-bottom: 32px;
+} 
 
 /* Header */
 header{
@@ -145,10 +148,7 @@ nav{
 .vision-box img{
     margin-bottom: 24px;
 }
-.vision-description{
-    line-height: 24px;
-    margin-bottom: 32px;
-} 
+
 .vision-box{
     width: 410px ;
     padding: 32px;
@@ -311,4 +311,51 @@ tbody tr td select{
 .news-btn{
     padding: 13px 26px;
 }
+
+/* Donate Today */
+
+.donation{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.taka-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.taka-box{
+    background-color: #fff;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 40px;
+    border-radius: 16px;
+}
+.taka-box:hover{
+    background-color: #C6E4D6;
+}
+.t-colored{
+    background-color: #C6E4D6;
+}
+.taka-box h2{
+    margin: 0;
+    color: rgba(14, 14, 14, 0.8);
+}
+.input-submit-box{
+    text-align: center;
+}
+.input-submit-box input{
+    background-color: #fff;
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    padding: 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.input-submit-box input::placeholder{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+}
+
 
